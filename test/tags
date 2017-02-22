@@ -1,0 +1,86 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Assign	mystring.cpp	/^void Mystring::Assign(const char* str)$/;"	f	class:Mystring	signature:(const char* str)
+Assign	mystring.h	/^		void Assign(const char* str);$/;"	p	class:Mystring	access:public	signature:(const char* str)
+MYLENGTH	mystring.h	4;"	d
+MYSTRING_H	mystring.h	2;"	d
+Mystring	mystring.cpp	/^Mystring::Mystring() : m_pStr(m_tablestr)$/;"	f	class:Mystring	signature:()
+Mystring	mystring.cpp	/^Mystring::Mystring(const Mystring& obj) : m_pStr(m_tablestr)$/;"	f	class:Mystring	signature:(const Mystring& obj)
+Mystring	mystring.cpp	/^Mystring::Mystring(const char* str) : m_pStr(m_tablestr)$/;"	f	class:Mystring	signature:(const char* str)
+Mystring	mystring.h	/^		Mystring();$/;"	p	class:Mystring	access:public	signature:()
+Mystring	mystring.h	/^		Mystring(const Mystring& obj);$/;"	p	class:Mystring	access:public	signature:(const Mystring& obj)
+Mystring	mystring.h	/^		Mystring(const char* str);$/;"	p	class:Mystring	access:public	signature:(const char* str)
+Mystring	mystring.h	/^class Mystring$/;"	c
+Mystring::Assign	mystring.cpp	/^void Mystring::Assign(const char* str)$/;"	f	class:Mystring	signature:(const char* str)
+Mystring::Assign	mystring.h	/^		void Assign(const char* str);$/;"	p	class:Mystring	access:public	signature:(const char* str)
+Mystring::Mystring	mystring.cpp	/^Mystring::Mystring() : m_pStr(m_tablestr)$/;"	f	class:Mystring	signature:()
+Mystring::Mystring	mystring.cpp	/^Mystring::Mystring(const Mystring& obj) : m_pStr(m_tablestr)$/;"	f	class:Mystring	signature:(const Mystring& obj)
+Mystring::Mystring	mystring.cpp	/^Mystring::Mystring(const char* str) : m_pStr(m_tablestr)$/;"	f	class:Mystring	signature:(const char* str)
+Mystring::Mystring	mystring.h	/^		Mystring();$/;"	p	class:Mystring	access:public	signature:()
+Mystring::Mystring	mystring.h	/^		Mystring(const Mystring& obj);$/;"	p	class:Mystring	access:public	signature:(const Mystring& obj)
+Mystring::Mystring	mystring.h	/^		Mystring(const char* str);$/;"	p	class:Mystring	access:public	signature:(const char* str)
+Mystring::c_str	mystring.cpp	/^char* Mystring::c_str()$/;"	f	class:Mystring	signature:()
+Mystring::c_str	mystring.h	/^		char* c_str();$/;"	p	class:Mystring	access:public	signature:()
+Mystring::m_pStr	mystring.h	/^		char* m_pStr;$/;"	m	class:Mystring	access:private
+Mystring::m_tablestr	mystring.h	/^		char m_tablestr[MYLENGTH + 1];$/;"	m	class:Mystring	access:private
+Mystring::operator =	mystring.cpp	/^Mystring& Mystring::operator=(const Mystring& obj)$/;"	f	class:Mystring	signature:(const Mystring& obj)
+Mystring::operator =	mystring.h	/^		Mystring& operator=(const Mystring& obj);$/;"	p	class:Mystring	access:public	signature:(const Mystring& obj)
+Mystring::~Mystring	mystring.cpp	/^Mystring::~Mystring()$/;"	f	class:Mystring	signature:()
+Mystring::~Mystring	mystring.h	/^		~Mystring();$/;"	p	class:Mystring	access:public	signature:()
+__anon1::i	union.c	/^	int i;$/;"	m	union:__anon1	file:	access:public
+__anon1::x	union.c	/^	char x[2];$/;"	m	union:__anon1	file:	access:public
+a	testomni.cc	/^	int a;$/;"	m	class:test1	file:	access:private
+a	testomni.cc	/^	int a;$/;"	m	struct:test	file:	access:public
+a	union.c	/^}a;$/;"	v	typeref:union:__anon1
+atof	atof.c	/^double atof(const char* src)$/;"	f	signature:(const char* src)
+atoi	atoi.c	/^int atoi(const char* src)$/;"	f	signature:(const char* src)
+b	testomni.cc	/^	int b;$/;"	m	class:test1	file:	access:private
+b	testomni.cc	/^	int b;$/;"	m	struct:test	file:	access:public
+c_str	mystring.cpp	/^char* Mystring::c_str()$/;"	f	class:Mystring	signature:()
+c_str	mystring.h	/^		char* c_str();$/;"	p	class:Mystring	access:public	signature:()
+flag	ftoa.c	/^static const double flag = 0.000001;$/;"	v	file:
+ftoa	ftoa.c	/^char* ftoa(double src)$/;"	f	signature:(double src)
+geta	testomni.cc	/^	int geta()$/;"	f	class:test1	file:	access:private	signature:()
+getb	testomni.cc	/^	int getb()$/;"	f	class:test1	file:	access:private	signature:()
+i	union.c	/^	int i;$/;"	m	union:__anon1	file:	access:public
+itoa	itoa.c	/^char* itoa(int src){$/;"	f	signature:(int src)
+m_pStr	mystring.h	/^		char* m_pStr;$/;"	m	class:Mystring	access:private
+m_tablestr	mystring.h	/^		char m_tablestr[MYLENGTH + 1];$/;"	m	class:Mystring	access:private
+main	atof.c	/^int main()$/;"	f
+main	atoi.c	/^int main()$/;"	f
+main	ftoa.c	/^int main(){$/;"	f
+main	itoa.c	/^int main(){$/;"	f
+main	myquickfixtest.c	/^int main(int argc,char** argv)$/;"	f	signature:(int argc,char** argv)
+main	mystring.cpp	/^int main()$/;"	f	signature:()
+main	strcat.c	/^int main()$/;"	f
+main	strcpy.c	/^int main()$/;"	f
+main	swap.c	/^int main()$/;"	f
+main	test.c	/^int main()$/;"	f
+main	testomni.cc	/^int main()$/;"	f	signature:()
+main	teststrcasecmp.c	/^int main()$/;"	f
+main	union.c	/^int main()$/;"	f
+operator =	mystring.cpp	/^Mystring& Mystring::operator=(const Mystring& obj)$/;"	f	class:Mystring	signature:(const Mystring& obj)
+operator =	mystring.h	/^		Mystring& operator=(const Mystring& obj);$/;"	p	class:Mystring	access:public	signature:(const Mystring& obj)
+reverse	ftoa.c	/^char* reverse(char* src)$/;"	f	signature:(char* src)
+reverse	itoa.c	/^char* reverse(char* src)$/;"	f	signature:(char* src)
+strcpy	strcpy.c	/^char* strcpy(char* strDest,const char* strSrc)$/;"	f	signature:(char* strDest,const char* strSrc)
+swap	swap.c	3;"	d	file:
+test	testomni.cc	/^struct test$/;"	s	file:
+test1	testomni.cc	/^	test1(){}$/;"	f	class:test1	file:	access:private	signature:()
+test1	testomni.cc	/^class test1$/;"	c	file:
+test1::a	testomni.cc	/^	int a;$/;"	m	class:test1	file:	access:private
+test1::b	testomni.cc	/^	int b;$/;"	m	class:test1	file:	access:private
+test1::geta	testomni.cc	/^	int geta()$/;"	f	class:test1	file:	access:private	signature:()
+test1::getb	testomni.cc	/^	int getb()$/;"	f	class:test1	file:	access:private	signature:()
+test1::test1	testomni.cc	/^	test1(){}$/;"	f	class:test1	file:	access:private	signature:()
+test1::~test1	testomni.cc	/^	~test1(){}$/;"	f	class:test1	file:	access:private	signature:()
+test::a	testomni.cc	/^	int a;$/;"	m	struct:test	file:	access:public
+test::b	testomni.cc	/^	int b;$/;"	m	struct:test	file:	access:public
+x	union.c	/^	char x[2];$/;"	m	union:__anon1	file:	access:public
+~Mystring	mystring.cpp	/^Mystring::~Mystring()$/;"	f	class:Mystring	signature:()
+~Mystring	mystring.h	/^		~Mystring();$/;"	p	class:Mystring	access:public	signature:()
+~test1	testomni.cc	/^	~test1(){}$/;"	f	class:test1	file:	access:private	signature:()

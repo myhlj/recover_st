@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+
+struct test
+{
+	int a;
+	int b;
+}
+
+class test1
+{
+	test1(){}
+	~test1(){}
+	int geta()
+	{
+		return a;
+	}
+	int getb()
+	{
+		return b;
+	}
+	private:
+	int a;
+	int b;
+};
+
+int main()
+{
+	test t;
+	test1* t1 = new test1;
+	
+		
+	return 0;
+}
