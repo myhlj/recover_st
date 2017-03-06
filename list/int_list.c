@@ -96,6 +96,17 @@ void DeleteList(List l)
 	l = NULL;
 }
 
+void Reverse(List l){
+    Position p,ppre,head;
+    head = l;
+    p = l->Next;
+    while(p){
+        ppre = p;
+        p = p->Next;
+
+    }
+}
+
 int main()
 {
 	List l = malloc(sizeof(struct Node));
